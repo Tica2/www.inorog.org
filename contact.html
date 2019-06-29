@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact | Inorog.org</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <style>
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;
+       }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="default">
+          <img src="images/logo.png" width="60" height="60" alt="Inorog">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="default">Acasă</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us">Despre noi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors">Sponsori</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact">Contact <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <a href="https://www.facebook.com/Inorog-team-340707209954082/">
+            <img src="images/facebook.png">
+        </a>
+        &nbsp &nbsp
+        <a href="https://instagram.com/inorogteam" target="_blank">
+            <img src="images/instagram.png"> 
+        </a>
+        &nbsp &nbsp
+        <a href="https://www.youtube.com/channel/UCsCUg7R8ap9dAbC5e8HhjfA" target="_blank">
+            <img src="images/youtube.png"> 
+        </a>
+        &nbsp &nbsp
+        <a href="https://www.github.com/inorog-org" target="_blank">
+            <img src="images/github_big.png"> 
+        </a>
+      </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div id="map"></div>
+            <img src="images/cngrc.jpg">
+            <div class="col-lg-4">
+                <p><br>Poștă Electronică: hello@inorog.org <br><br> Adresă: Strada Nicolae Bălcescu 11, Bârlad 731183</p>
+                <br><br>
+                Urmărește-ne pe:
+                <br>
+                <br>
+                <a href="https://www.facebook.com/Inorog-team-340707209954082/">
+                    <img src="images/facebook.png">
+                </a>
+                &nbsp &nbsp
+                <a href="https://instagram.com/inorogteam" target="_blank">
+                    <img src="images/instagram.png"> 
+                </a>
+                &nbsp &nbsp
+                <a href="https://www.youtube.com/channel/UCsCUg7R8ap9dAbC5e8HhjfA" target="_blank">
+                    <img src="images/youtube.png"> 
+                </a>
+                &nbsp &nbsp
+                <a href="https://www.github.com/inorog-org" target="_blank">
+                    <img src="images/github_big.png"> 
+                </a>
+            </div>
+            <script>
+                function initMap() {
+                  var codreanu = {lat: 46.22722, lng: 27.662887};
+                  var map = new google.maps.Map(
+                      document.getElementById('map'), {zoom: 4, center: codreanu});
+                  var marker = new google.maps.Marker({position: codreanu, map: map});
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyCVwqNdwZNRllLYGeLSWsNIym0z1QOEx0c
+&callback=initMap"></script>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div style="background-color: #eee">
+        <div class="container">
+          <div class="row">
+                <div>
+                    <br>
+                    
+                    <h1>Contribuie la promovarea proiectului!</h1>
+
+                    <a href="https://www.facebook.com/sharer.php?u=inorog.org" target="_blank">
+                        <button type="button" class="btn btn-info">Promovează pe Facebook!</button>
+                    </a>
+                    
+                    <br>
+                    
+                    <br>
+              </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://inorog.org"> Inorog.org</a>
+        <br>
+        <br>
+        Urmărește-ne pe: 
+          <a href="https://www.facebook.com/Inorog-team-340707209954082/">
+            <img src="images/facebook_footer%20.png">
+          </a>
+          &nbsp 
+          <a href="https://instagram.com/inorogteam" target="_blank">
+            <img src="images/instagram_footer%20.png"> 
+          </a>
+          &nbsp
+          <a href="https://www.youtube.com/channel/UCsCUg7R8ap9dAbC5e8HhjfA" target="_blank">
+            <img src="images/youtube_footer%20.png"> 
+          </a>
+          &nbsp
+          <a href="https://www.github.com/inorog-org" target="_blank">
+            <img src="images/github.png"> 
+          </a>
+        <br>
+        <br>
+        <a href="https://natieprineducatie.ro" target="_blank">
+            <img src="images/natieprineducatie.png"> 
+        </a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
